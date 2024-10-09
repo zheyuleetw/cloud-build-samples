@@ -16,7 +16,4 @@
 steps:
   - name: golang
     args: ['go', 'run', 'quickstart-automate/main.go']
-build:
-  service_account: "github-trigger@cloud-buld-demo.iam.gserviceaccount.com"
-  logging: "NONE"
 # [END cloudbuild_quickstart_automate]
